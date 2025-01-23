@@ -7,8 +7,8 @@
 ### Легенда
 Вы решили развлечься и реализовать некое подобие игры, где гномы (или другие существа), выскакивают из "отверстий" и по ним нужно бить молотком:  
 
-![Video](https://github.com/netology-code/ahj-homeworks/blob/AHJ-50/dom/pic/GracefulMiniatureBustard-small.gif) 
-Copyright gfycat.com
+![Video](https://github.com/netology-code/ahj-homeworks/blob/AHJ-50/dom/pic/GracefulMiniatureBustard-small.gif)  
+Copyright gfycat.com  
 
 ### Описание
 Соберите инфраструктуру проекта на базе Webpack, ESLint, Babel, Jest, Webpack Dev Server. 
