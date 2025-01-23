@@ -5,8 +5,8 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest --coverage",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode production --open"
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open"
   },
   "author": "",
   "license": "ISC",
