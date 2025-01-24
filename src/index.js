@@ -38,7 +38,16 @@ function moveGoblin() {
     oldCell.classList.remove('goblin');
   }
 
-  const newCell = getRandomCell();
+  // Проверяем, что новая ячейка не совпадает с текущей позицией
+  function getUniqueCell() {
+    const newCell = getRandomCell();
+    if (newCell !== oldCell) {
+      return newCell;
+    }
+    return getRandomCell();
+  }
+
+  const newCell = getUniqueCell();
   newCell.appendChild(goblin);
   newCell.classList.add('goblin');
 }

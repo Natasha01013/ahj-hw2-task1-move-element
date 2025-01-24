@@ -6,9 +6,7 @@ branches: # какие ветки отслеживаются
     - master  # ветка git
     - main
 
-# cache: node_modules  # кеширование, чтобы node_modules работал быстрее
-cache:
-  - false  # Отключаем кеширование для node_modules
+cache: node_modules  # кеширование, чтобы node_modules работал быстрее
 
 install:
   - npm install  # команда установки зависимостей
